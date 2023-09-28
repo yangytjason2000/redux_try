@@ -4,7 +4,11 @@
 
 .App-logo {
   height: 40vmin;
-  pointer-events: none;
+}
+
+.App-logo-paused {
+  height: 40vmin;
+  animation-play-state: paused;
 }
 
 @media (prefers-reduced-motion: no-preference) {
